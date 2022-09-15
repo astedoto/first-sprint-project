@@ -1,0 +1,104 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  align-items: center;
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.logo_place_header {
+  top: 30px;
+  left: 64px;
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  background-image: url(logo_place_header.svg);
+}
+
+.header__title {
+  display: flex;
+  align-items: center;
+  left: 64px;
+  width: 730px;
+  position: absolute;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2f80ed;
+}
+
+.header__main-illustration {
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.header__subtitle {
+  bottom: 30px;
+  left: 64px;
+  position: absolute;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.description {
+  margin-bottom: 100px;
+  border: 1px solid red;
+  width: 80%;
+  min-width: 784px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 175px;
+}
+
+.two-columns {
+  border: 1px solid red;
+  width: 175px;
+  position: absolute;
+  left: 0;
+}
+
+.two-columns__brief {
+  position: absolute;
+  left: 0;
+  top: 0;
+  line-height: 1.2px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
