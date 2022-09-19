@@ -16,7 +16,6 @@
 }
 
 .content {
-  display: flex;
   justify-content: center;
 }
 
@@ -124,5 +123,257 @@
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: 600;;
+  font-weight: 600;
+}
+
+.digits {
+  display: flex;
+  width: 100%;
+  min-height: 700px;
+  position: relative;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  width: 60%;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  display: flex;
+  position: absolute;
+}
+
+.section-subtitle {
+  width: 60%;
+  display: flex;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  position: absolute;
+  justify-content: center;
+  top: 100px;
+}
+
+.table {
+  display: flex;
+  width: 1100px;
+  position: relative;
+  top: 155px;
+  height: 544px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.table__cell {
+  width: 250px;
+  height: 35%;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  position: absolute;
+  display: flex;
+  top: -20px;
+  margin-bottom: 20px;
+}
+
+.table__text {
+  position: absolute;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.table__bottom-text {
+  position: absolute;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  display: flex;
+  bottom: 0;
+}
+
+.feynman {
+  display: flex;
+  min-height: 870px;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: absolute;
+  top: 399px;
+  z-index: 2;
+}
+
+.feynman__img {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color:#2f80ed; 
+}
+
+.kaufman {
+  min-height: 700px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+}
+
+.section-title_theme_dark {
+  color: white;
+  top: 90px;
+}
+
+.section-subtitle_theme_dark {
+  position: absolute;
+  top: 210px;
+  color: white
+}
+
+.table_theme_dark {
+  width: 1100px;
+  position: absolute;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+  bottom: 90px;
+  height: 400px;
+  z-index: 1;
+}
+
+.table__cell_theme_dark {
+  margin-top: 80px;
+  min-height: 130px;
+  width: 200px;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__column {
+  justify-content: center;
+  top: 60px;
+  bottom: 40px;
+  width: 90%;
+  display: flex;
+  position: absolute;
+  flex-basis: 711px;
+  min-height: 250px;
+}
+
+.logo_place_footer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  position: absolute;
+  left: 0px;
+  bottom: 18px;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-info {
+  height: 100%;
+  position: absolute;
+  min-width: 150px;
+  right: 450px
+}
+
+.footer__column-heading {
+  position: absolute;
+  top: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer__column-links {
+  position: absolute;
+  top: 60px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.footer__column-social {
+  height: 100%;
+  min-width: 120px;
+  right: 0;
+  position: absolute;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
